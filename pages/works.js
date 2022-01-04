@@ -4,6 +4,7 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import mytinerary from "../public/images/mytinerary.png";
 import petShop from "../public/images/petshop.png";
+import grammerspro from '../public/images/grammerspro'
 
 const works = () => {
   return (
@@ -16,10 +17,19 @@ const works = () => {
           <Section>
             <GridItem
               parraph="A travel Itineraries website"
-              website=" "
+              website="https://mytinerary-serato.herokuapp.com"
               source="https://github.com/Arielcito/mytinerary-serato"
               title="MyTinerary"
               thumbnail={mytinerary}
+            />
+          </Section>
+          <Section>
+            <GridItem
+              parraph="A blog for programmers."
+              website="https://gramers-pro.herokuapp.com"
+              source="https://github.com/Arielcito/grammersPRO"
+              title="GrammersPRO"
+              thumbnail={grammerspro}
             />
           </Section>
           <Section>
