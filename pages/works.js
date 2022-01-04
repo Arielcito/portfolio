@@ -4,7 +4,7 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import mytinerary from "../public/images/mytinerary.png";
 import petShop from "../public/images/petshop.png";
-import grammerspro from '../public/images/grammerspro'
+import grammerspro from '../public/images/grammerspro.png'
 
 const works = () => {
   return (

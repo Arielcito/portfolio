@@ -62,6 +62,8 @@ const index = () => {
             <Skills src="/images/node.svg" alt="javascript logo" />
             <Skills src="/images/html.svg" alt="javascript logo" />
             <Skills src="/images/css3.svg" alt="javascript logo" />
+            <Skills src="/images/mongo-svgrepo-com.svg" alt="MongoDB logo" />
+            <Skills src="/images/next.png" alt="NextJs logo" />
           </Stack>
         </Section>
       </Container>
