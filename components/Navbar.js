@@ -29,7 +29,7 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href;
   const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
   return (
-    <NextLink href={href} passHref>
+    <NextLink href={href} passHref  _target={_target}>
       <Link
         p={2}
         bg={active ? "grassTeal" : undefined}

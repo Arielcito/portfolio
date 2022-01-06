@@ -11,7 +11,7 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Ariel's homepage" />
         <meta name="author" content="Ariel Serato" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <title>Ariel Serato - Homepage</title>
+        <title>Homepage - Ariel Serato</title>
       </Head>
       <NavBar path={router.asPath} />
       <Container maxW="container.md" pt={14}>
