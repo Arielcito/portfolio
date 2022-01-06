@@ -79,7 +79,6 @@ export default function Navbar(props) {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>Works</LinkItem>
-          <LinkItem href="/aboutme" path={path}>About Me</LinkItem>
         </Stack>
         <Box>
           <Stack
