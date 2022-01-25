@@ -27,7 +27,7 @@ const works = () => {
             <GridItem
               parraph="An Ecommerce of Gin made in group."
               website="luxurydrinks.herokuapp.com"
-              source="https://github.com/ernestoschubert/luxurydrinks"
+              source="https://github.com/Arielcito/luxurydrinks"
               title="Luxury drinks"
               thumbnail={luxurydrinks}
             />
