@@ -11,6 +11,7 @@ import Layout from "../components/layouts/article";
 import Paragraph from "../components/paragraph";
 import Section from "../components/section";
 import Skills from "../components/skills";
+import { Wrap, WrapItem } from "@chakra-ui/react";
 
 const index = () => {
   return (
@@ -54,16 +55,17 @@ const index = () => {
           <Heading as="h3" variant="section-title">
             Skills
           </Heading>
-          <Stack display="flex" direction="row"
-          justifyContent="space-between"
-          >
-            <Skills src="/images/javascript.svg" alt="javascript logo" />
-            <Skills src="/images/react.svg" alt="javascript logo" />
-            <Skills src="/images/node.svg" alt="javascript logo" />
-            <Skills src="/images/html.svg" alt="javascript logo" />
-            <Skills src="/images/css3.svg" alt="javascript logo" />
-            <Skills src="/images/mongo-svgrepo-com.svg" alt="MongoDB logo" />
-            <Skills src="/images/next.png" alt="NextJs logo" />
+          <Stack display="flex" direction="row" justifyContent="space-between">
+            <Wrap>
+              <Skills src="/images/javascript.svg" alt="javascript logo" />
+              <Skills src="/images/typescript.svg" alt="typescript logo" />
+              <Skills src="/images/react.svg" alt="javascript logo" />
+              <Skills src="/images/node.svg" alt="javascript logo" />
+              <Skills src="/images/html.svg" alt="javascript logo" />
+              <Skills src="/images/css3.svg" alt="javascript logo" />
+              <Skills src="/images/mongo-svgrepo-com.svg" alt="MongoDB logo" />
+              <Skills src="/images/next.png" alt="NextJs logo" />
+            </Wrap>
           </Stack>
         </Section>
       </Container>

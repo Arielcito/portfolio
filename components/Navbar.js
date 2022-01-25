@@ -1,6 +1,4 @@
 import {
-  Button,
-  Text,
   Container,
   Link,
   Box,
@@ -72,8 +70,8 @@ export default function Navbar(props) {
         </Flex>
         <Stack
           direction={{ base: "column", md: "row" }}
-          display={{ base: "none", md: "flex" }}
-          width={{ base: "full", md: "auto" }}
+          display={"flex"}
+          width={"auto"}
           alignItems="center"
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
@@ -87,7 +85,7 @@ export default function Navbar(props) {
             width={{ base: "full", md: "auto" }}
             alignItems="center"
             flexGrow={1}
-            mt={{ base: 4, md: 0 }}
+            mt={4} 
           >
             <LinkItem
               _target="_blank"
@@ -124,7 +122,7 @@ export default function Navbar(props) {
             </LinkItem>
             <ThemeToggleButton />
           </Stack>
-          <Box ml={2} display={{ base: "inline-block", md: "none" }}>
+          {/* <Box ml={2} display={{ base: "inline-block", md: "none" }} justifyContent="flex-end" >
             <Menu isLazy id="navbar-menu">
               <MenuButton
                 as={IconButton}
@@ -139,7 +137,7 @@ export default function Navbar(props) {
                 </MenuList>
               </MenuButton>
             </Menu>
-          </Box>
+          </Box> */}
         </Box>
       </Container>
     </Box>

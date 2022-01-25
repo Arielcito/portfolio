@@ -5,7 +5,7 @@ import Section from "../components/section";
 import mytinerary from "../public/images/mytinerary.png";
 import petShop from "../public/images/petshop.png";
 import grammerspro from '../public/images/grammerspro.png'
-
+import luxurydrinks from '../public/images/luxurydrinks.png'
 const works = () => {
   return (
     <Layout title="Works">
@@ -16,11 +16,29 @@ const works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <GridItem
-              parraph="A travel Itineraries website"
+              parraph="A travel Itineraries website."
               website="https://mytinerary-serato.herokuapp.com"
               source="https://github.com/Arielcito/mytinerary-serato"
               title="MyTinerary"
               thumbnail={mytinerary}
+            />
+          </Section>
+          <Section>
+            <GridItem
+              parraph="An Ecommerce of Gin made in group."
+              website="luxurydrinks.herokuapp.com"
+              source="https://github.com/ernestoschubert/luxurydrinks"
+              title="Luxury drinks"
+              thumbnail={luxurydrinks}
+            />
+          </Section>
+          <Section>
+            <GridItem
+              parraph="A petshop website using javascript vainilla and API's."
+              website="https://petshop-franco.netlify.app/index.html"
+              source="https://github.com/Arielcito/pet-shop"
+              title="PetShop Franco"
+              thumbnail={petShop}
             />
           </Section>
           <Section>
@@ -30,15 +48,6 @@ const works = () => {
               source="https://github.com/Arielcito/grammersPRO"
               title="GrammersPRO"
               thumbnail={grammerspro}
-            />
-          </Section>
-          <Section>
-            <GridItem
-              parraph="A petshop website using javascript vainilla and API's"
-              website="https://petshop-franco.netlify.app/index.html"
-              source="https://github.com/Arielcito/pet-shop"
-              title="PetShop Franco"
-              thumbnail={petShop}
             />
           </Section>
         </SimpleGrid>
