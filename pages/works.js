@@ -6,6 +6,7 @@ import mytinerary from "../public/images/mytinerary.png";
 import petShop from "../public/images/petshop.png";
 import grammerspro from '../public/images/grammerspro.png'
 import luxurydrinks from '../public/images/luxurydrinks.png'
+import Golang from '../public/images/Golang.png'
 const works = () => {
   return (
     <Layout title="Works">
@@ -26,10 +27,19 @@ const works = () => {
           <Section>
             <GridItem
               parraph="An Ecommerce of Gin made in group."
-              website="luxurydrinks.herokuapp.com"
+              website="https://luxurydrinks.herokuapp.com"
               source="https://github.com/Arielcito/luxurydrinks"
               title="Luxury drinks"
               thumbnail={luxurydrinks}
+            />
+          </Section>
+          <Section>
+            <GridItem
+              parraph="A simple API for a bank administration."
+              website=""
+              source="https://github.com/Arielcito/Simple-Bank-Go"
+              title="Simple bank"
+              thumbnail={Golang}
             />
           </Section>
           <Section>
