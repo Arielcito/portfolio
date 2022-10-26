@@ -7,6 +7,7 @@ import petShop from "../public/images/petshop.png";
 import grammerspro from '../public/images/grammerspro.png'
 import luxurydrinks from '../public/images/luxurydrinks.png'
 import Golang from '../public/images/Golang.png'
+
 const works = () => {
   return (
     <Layout title="Works">
