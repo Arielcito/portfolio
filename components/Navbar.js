@@ -5,11 +5,6 @@ import {
   Flex,
   Heading,
   Stack,
-  Menu,
-  MenuButton,
-  MenuList,
-  IconButton,
-  MenuItem,
   useColorModeValue,
 } from "@chakra-ui/react";
 import {
@@ -23,7 +18,7 @@ import Image from "next/image";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./ThemeToggleButton";
 
-const LinkItem = ({ href, path, _target, children, ...props }) => {
+export const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href;
   const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
   return (
@@ -77,6 +72,7 @@ export default function Navbar(props) {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>Works</LinkItem>
+          <LinkItem href="/blog" path={path}>Blog</LinkItem>
         </Stack>
         <Box>
           <Stack
